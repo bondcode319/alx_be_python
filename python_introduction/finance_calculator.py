@@ -1,8 +1,8 @@
                      
-income = int(input("Enter your monthly income: "))
-expenses = int(input("Enter your total monthly expenses: "))    
+monthly_income = int(input("Enter your monthly income: "))
+monthly_expenses = int(input("Enter your total monthly expenses: "))    
 
-monthly_savings = income - expenses
+monthly_savings = monthly_income - monthly_expenses
 print("Your monthly savings are:", monthly_savings)
 
 interest_rate = 0.05
